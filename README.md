@@ -21,30 +21,30 @@ Asegúrate de tener Java 11 y Gradle 8.3 instalados.
 Descarga las dependencias del proyecto con el siguiente comando:
 gradle clean build
 
-##Ejecutar las pruebas
+## Ejecutar las pruebas
 gradle test
 
-##Plataforma de Pruebas:
+## Plataforma de Pruebas:
 Enlace: https://automationcompany-qa.jujutests.com/
 Credenciales:
 -Usuario: usertecvac1
 -Contraseña: UserTest1*
 
-###Configuración del Entorno de Desarrollo (IntelliJ IDEA):
+### Configuración del Entorno de Desarrollo (IntelliJ IDEA):
 Abre IntelliJ IDEA y selecciona "Open" para abrir el proyecto.
 Configura el JDK del proyecto a Java 11.
 Ejecuta las pruebas desde la ventana de "Gradle" en IntelliJ o mediante el comando gradle test en la terminal.
 
-###Ejecución por Tags:
+### Ejecución por Tags:
 Utiliza el siguiente comando para ejecutar pruebas específicas por tags:
 gradle clean test --tests *test.runner.InicioSesionRunner aggregate & cd target/site/serenity & index.html
 gradle clean test --tests *test.runner.CatalogoRunner aggregate & cd target/site/serenity & index.html
 
-###Comentario de Actualización de Tags para Ejecución de Escenarios:
+### Comentario de Actualización de Tags para Ejecución de Escenarios:
 Es crucial destacar que antes de ejecutar un runner (ejecutor) para las pruebas, se debe realizar una actualización del etiquetado (tags) de los escenarios que se desean ejecutar. 
 Los tags en los escenarios de Gherkin actúan como identificadores clave y son esenciales para la selección precisa de los escenarios a ejecutar.
 
-###Pasos para la Actualización de Tags:
+### Pasos para la Actualización de Tags:
 -Revisar los Escenarios Actuales:
 Verifica los tags asignados a los escenarios en los archivos Gherkin. 
 -Actualizar Tags Según la Ejecución Deseada:
