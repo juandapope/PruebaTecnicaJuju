@@ -1,0 +1,17 @@
+
+{
+java:S1192%"YDefine a constant instead of duplicating this literal "Funciona, si lo reconoce" 4 times.(Ò‰ü®şÿÿÿÿ8åğÑÄÓ1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Ò‰ü®şÿÿÿÿ8º©ÕÃÓ1
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(Ò‰ü®şÿÿÿÿ8»©ÕÃÓ1
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(Ò‰ü®şÿÿÿÿ8ñÑÄÓ1
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(Ò‰ü®şÿÿÿÿ8¬şÔÄÓ1
+c
+java:S1128"FRemove this unused import 'io.github.bonigarcia.wdm.WebDriverManager'.(°Ëõ‰8äåõÄÓ1
+a
+java:S1128"DRemove this unused import 'reto.pageobjects.InicioSesionPageObject'.(‹™’Å8äåõÄÓ1
+O
+java:S1128"-Remove this unused import 'reto.utils.Datos'.(•üïÿÿÿÿÿ8ååõÄÓ1
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ååõÄÓ1
+H
+java:S5960$"+Remove this assertion from production code.(¨¦À‡8»©ÕÃÓ1
